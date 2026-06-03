@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makerslite Lab Forum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Sachin Sridharan</h1>
+                <p class="tagline">Ventures & Innovation</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="makerslite.html">Makerslite Lab</a></li>
+                <li><a href="forum.html" class="active">Forum</a></li>
+                <li><a href="neuromorphic.html">Neuromorphic Systems</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero venture-hero">
+        <div class="hero-content">
+            <h1>Makerslite Lab Forum</h1>
+            <p>A public forum for scientific and philosophical questions where anyone can ask and anyone can answer.</p>
+        </div>
+    </section>
+
+    <section class="forum-section">
+        <div class="container">
+            <div class="forum-content">
+                <div class="forum-panel">
+                    <h2>Ask a Question</h2>
+                    <form id="question-form" class="forum-form">
+                        <label for="q-author">Your Name</label>
+                        <input type="text" id="q-author" placeholder="Name or nickname" required>
+
+                        <label for="q-topic">Topic</label>
+                        <input type="text" id="q-topic" placeholder="Science, philosophy, AI, design..." required>
+
+                        <label for="q-text">Question</label>
+                        <textarea id="q-text" rows="5" placeholder="Ask any scientific or philosophical question" required></textarea>
+
+                        <button type="submit" class="btn btn-primary">Post Question</button>
+                    </form>
+                </div>
+
+                <div class="forum-panel">
+                    <h2>Forum Board</h2>
+                    <div id="forum-list" class="forum-list">
+                        <p class="empty-state">No questions yet. Be the first to ask something.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ventures of Sachin Sridharan. All rights reserved.</p>
+            <p class="footer-social">Connect: <a href="https://www.linkedin.com/in/sachin-sridharan-92b136120/" target="_blank">LinkedIn</a> | <a href="https://github.com/sachstuff/venturesofsachinsridharan" target="_blank" class="github-link">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
