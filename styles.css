@@ -517,6 +517,124 @@ footer {
     margin-bottom: 2rem;
 }
 
+/* ===== Forum Section ===== */
+.forum-section {
+    padding: 80px 20px;
+    background: white;
+}
+
+.forum-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.forum-panel {
+    background: var(--light-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.forum-panel h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+}
+
+.forum-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.forum-form input,
+.forum-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.forum-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.forum-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+}
+
+.forum-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+
+.forum-meta {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.forum-text {
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.answer-list {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--secondary-color);
+}
+
+.answer-item {
+    margin-bottom: 1rem;
+}
+
+.answer-item p {
+    margin: 0.4rem 0 0;
+    color: var(--text-light);
+}
+
+.answer-form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.answer-form textarea {
+    min-height: 100px;
+}
+
+.answer-toggle {
+    background: transparent;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0;
+}
+
+.empty-state {
+    color: var(--text-light);
+}
+
+@media (min-width: 900px) {
+    .forum-content {
+        grid-template-columns: 1fr 1.2fr;
+    }
+}
+
 .contact-content {
     max-width: 600px;
     margin: 0 auto;

@@ -6,11 +6,10 @@ A professional, modern website showcasing the ventures and innovation initiative
 
 ### Pages
 - **Home Page** (`index.html`) - Overview of all ventures, mission statement, and call-to-action buttons
-- **Makerslite Laboratory** (`makerslite.html`) - Detailed information about hardware innovation and prototyping
+- **Makerslite Laboratory** (`makerslite.html`) - An open-source virtual R&D lab game and online research community for collaborative simulation, prototyping, and reproducible research
+- **Forum** (`forum.html`) - Public forum for scientific and philosophical questions under Makerslite Lab
 - **Neuromorphic Systems** (`neuromorphic.html`) - Comprehensive details on bio-inspired computing and AI research
- - **Makerslite Laboratory** (`makerslite.html`) - An open-source virtual R&D lab game and online research community for collaborative simulation, prototyping, and reproducible research
- - **Neuromorphic Systems** (`neuromorphic.html`) - Comprehensive details on bio-inspired computing and AI research
- - **Videos of Sachin Sridharan** (`videos.html`) - A polymathic collection of talks, tutorials, demos, and interviews by Sachin Sridharan spanning engineering, AI, design, and open-source research. YouTube channel: https://www.youtube.com/@videosofsachinsridharan
+- **Videos of Sachin Sridharan** (`videos.html`) - A polymathic collection of talks, tutorials, demos, and interviews by Sachin Sridharan spanning engineering, AI, design, and open-source research. YouTube channel: https://www.youtube.com/@videosofsachinsridharan
 
 ### Design & Functionality
 ✓ Fully responsive design (desktop, tablet, mobile)
@@ -29,10 +28,12 @@ A professional, modern website showcasing the ventures and innovation initiative
 venturesofsachinsridharan/
 ├── index.html              # Home page
 ├── makerslite.html         # Makerslite Laboratory venture page
+├── forum.html              # Makerslite Lab forum page
 ├── neuromorphic.html       # Neuromorphic Systems venture page
+├── videos.html             # Videos and media page
 ├── styles.css              # Global styling (responsive)
 ├── script.js               # Interactive functionality
-├── README.md              # This file
+├── README.md               # This file
 └── ...other files
 ```
 

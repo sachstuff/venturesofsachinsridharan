@@ -31,23 +31,22 @@
 - Navigation to detailed venture pages
 
 ### Makerslite Laboratory (makerslite.html)
- - An open-source virtual R&D lab game and research community
- - Virtual prototyping and simulation-first workflows
- - Open-source projects and contributor guides
- - Community events, challenges, and educational campaigns
+- An open-source virtual R&D lab game and research community
+- Virtual prototyping and simulation-first workflows
+- Open-source projects and contributor guides
+- Community events, challenges, and educational campaigns
+
+### Makerslite Lab Forum (forum.html)
+- Public platform for scientific and philosophical questions
+- Anyone can ask a question and anyone can answer
+- Stores posts locally in the browser for quick exploration
+- Designed to support open discussion under Makerslite Lab
 
 ### Neuromorphic Systems (neuromorphic.html)
-### Makerslite Laboratory
-- Open-source virtual R&D lab game and community
-- Project overview and simulation sandbox
-- Contributor guides and GitHub workflow
-- Community events and collaboration CTA
+- Neuromorphic research overview and computational intelligence applications
+- Hardware, algorithm, and systems design details
+- Collaboration opportunities and research goals
 
-### Videos of Sachin Sridharan (videos.html)
-- Curated talks, tutorials, demos, and interviews
-- Featured recordings and workshop materials
-- Instructions for submitting video contributions via GitHub
- - YouTube channel: https://www.youtube.com/@videosofsachinsridharan
 ### Videos of Sachin Sridharan (videos.html)
 - A polymathic collection of talks, tutorials, demos, and interviews spanning multiple disciplines
 - Featured recordings and workshop materials
